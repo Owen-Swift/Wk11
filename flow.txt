@@ -1,0 +1,9 @@
+-Generate English uppercase characters from A to Z. After every character, there must be a line feed. Use procedures and loops to optimize the code. 
+	-Create procedure that prints 1 characterfrom variable
+	-use ecx as counter
+	-use ebx to hold actual character value (using ecx gives ascending list not descending)
+	-save ebx to character variable
+	-save ebx, ecx to stack before calling procedure
+	-after procedure, restore ebx, ecx
+	-loop until ecx = 0
+	-could also use cmp ebx, 26 to achieve same result
